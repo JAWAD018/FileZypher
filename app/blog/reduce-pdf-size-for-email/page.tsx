@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight, Clock, Calendar } from "lucide-react";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "How to Reduce PDF Size for Email Attachments",
@@ -338,6 +339,7 @@ export default function ReducePdfSizeForEmailBlogPost() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

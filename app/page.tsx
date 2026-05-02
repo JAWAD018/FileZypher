@@ -13,6 +13,7 @@ import {
   Zap,
 } from "lucide-react";
 import ToolCard from "@/components/ToolCard";
+import Footer from "@/components/Footer";
 
 // app/layout.tsx
 
@@ -349,6 +350,7 @@ export default function HomePage() {
           </Link>
         </div>
       </section>
+      <Footer />
     </main>
   );
 }

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight, Clock, Calendar, CheckCircle2 } from "lucide-react";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Best Free Image Compressor Online in 2025",
@@ -211,6 +212,7 @@ export default function BestImageCompressorPost() {
         </div>
 
       </div>
+      <Footer />
     </div>
   );
 }

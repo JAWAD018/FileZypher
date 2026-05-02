@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight, Clock, Calendar } from "lucide-react";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "How to Convert PDF to Word Without Losing Formatting",
@@ -238,6 +239,7 @@ export default function PdfToWordBlogPost() {
         </div>
 
       </div>
+      <Footer />
     </div>
   );
 }

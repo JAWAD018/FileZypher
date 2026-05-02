@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight, Clock, Calendar } from "lucide-react";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "JSON Formatter: What It Is, How to Use It, and Why Developers Need One",
@@ -407,6 +408,7 @@ export default function JsonFormatterGuideBlogPost() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
